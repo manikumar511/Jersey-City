@@ -5,7 +5,7 @@ export default class Accsearch extends LightningElement {
     name='actor rajinikanth tamil';
     changename(event){
         console.log('event.target.value======='+event.target.value);
-		
+		console.log('event.target.value======='+event.target.value);
         name1=event.target.value;
     }
 }
